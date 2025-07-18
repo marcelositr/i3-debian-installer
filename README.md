@@ -122,7 +122,7 @@ Após a execução do script, algumas ações manuais são necessárias. O scrip
 - **Reiniciar o sistema.**
 - **Executar `sudo dpkg-reconfigure libdvd-pkg`** para finalizar a instalação dos codecs de DVD.
 - **Copiar os dotfiles** para sua pasta de usuário (`cp -r /opt/i3-starterpack/.config/* ~/.config/`).
-- **Habilitar os serviços de áudio** para o seu usuário (`systemctl --user ...`).
+- **Habilitar os serviços de áudio** para o marcelositr (`systemctl --user ...`).
 
 ## Licença
 
