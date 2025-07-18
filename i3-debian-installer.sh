@@ -15,7 +15,7 @@
 #                after the script finishes.
 #        AUTHOR: ~marcelositr marcelost@riseup.net
 #       CREATED: 2025/07/18
-#       VERSION: 1.2.1
+#       VERSION: 1.0.0
 #      REVISION: Reverted to the previous stable script version. Shortened
 #                long description texts to prevent dialog display issues.
 #===============================================================================
