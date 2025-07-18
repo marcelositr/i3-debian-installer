@@ -47,16 +47,73 @@ Siga as instruções nas caixas de diálogo para selecionar os componentes que d
 
 ## Estrutura da Instalação
 
-O script irá oferecer os seguintes grupos de pacotes para instalação:
-1.  **Base do Sistema e Gráficos (Essencial)**
-2.  **Ambiente i3 Completo (Essencial)**
-3.  **Serviços Essenciais (Rede e Áudio)**
-4.  **Suíte de Aplicativos e Compressão (Opcional)**
-5.  **Ambiente de Desenvolvimento (Opcional)**
-6.  **Codecs e Ferramentas Multimídia (Opcional)**
-7.  **Ferramentas de Terminal Avançadas (Opcional)**
-8.  **Gestão de Hardware (Opcional)**
-9.  **Aplicação das Configurações (Dotfile)**
+O script irá oferecer os seguintes grupos de pacotes para instalação. Clique em cada categoria para ver os pacotes incluídos.
+
+<details>
+<summary><strong>1. Base do Sistema e Gráficos (Essencial)</strong></summary>
+
+*   `xorg`, `xinit`, `build-essential`, `git`, `vim`, `nano`, `dialog`, `bash-completion`
+</details>
+
+<details>
+<summary><strong>2. Ambiente i3 Completo (Essencial)</strong></summary>
+
+*   **i3 e Ferramentas:** `i3`, `i3status`, `i3lock`, `dunst`, `suckless-tools`, `rxvt-unicode`, `rofi`, `xsel`
+*   **Gerenciador de Login:** `sddm`, `sddm-theme-debian-breeze`
+*   **Visual:** `picom`, `hsetroot`, `lxappearance`, `fonts-noto`, `fonts-font-awesome`
+</details>
+
+<details>
+<summary><strong>3. Serviços Essenciais (Rede e Áudio)</strong></summary>
+
+*   `network-manager-gnome`, `pipewire`, `pipewire-pulse`, `wireplumber`, `pavucontrol`, `alsa-utils`
+</details>
+
+<details>
+<summary><strong>4. Suíte de Aplicativos e Compressão (Opcional)</strong></summary>
+
+*   **Aplicativos XFCE:** `thunar`, `tumbler`, `file-roller`, `mousepad`, `ristretto`, `xfce4-taskmanager`, `xfce4-power-manager`, `xfce4-screenshooter`, `xfce4-terminal`, `gvfs-backends`
+*   **Plugins do Thunar:** `thunar-archive-plugin`, `thunar-media-tags-plugin`
+*   **Suporte a Compressão:** `zip`, `unzip`, `tar`, `gzip`, `bzip2`, `xz-utils`, `p7zip-full`, `zstd`, `unrar`, `lrzip`, `lzip`, `squashfs-tools`, `cabextract`
+</details>
+
+<details>
+<summary><strong>5. Ambiente de Desenvolvimento (Opcional)</strong></summary>
+
+*   **IDE:** `geany`, `geany-plugins`
+*   **C/C++:** `gdb`, `cmake`, `meson`, `clang`, `clang-format`, `clang-tidy`
+*   **Python:** `python3-dev`, `python3-pip`, `python3-venv`, `python3-flake8`, `python3-black`, `python3-numpy`
+</details>
+
+<details>
+<summary><strong>6. Codecs e Ferramentas Multimídia (Opcional)</strong></summary>
+
+*   **Players e Codecs:** `vlc`, `vlc-plugin-qt`, `gstreamer1.0-plugins-bad`, `gstreamer1.0-plugins-ugly`, `libdvd-pkg`, `libavcodec-extra`
+*   **Ferramentas de Linha de Comando:** `ffmpeg`, `yt-dlp`, `mediainfo`, `sox`
+</details>
+
+<details>
+<summary><strong>7. Ferramentas de Terminal Avançadas (Opcional)</strong></summary>
+
+*   **Shells e Sessões:** `fish`, `tmux`, `starship`
+*   **Navegação:** `eza`, `ranger`, `lf`, `tree`
+*   **Busca:** `ripgrep`, `fd-find`, `fzf`
+*   **Visualização:** `bat`, `jq`
+*   **Monitoramento:** `htop`, `btop`
+*   **Automação e TUI:** `xdotool`, `shellcheck`, `taskwarrior`, `glow`, `lazygit`, `lazydocker`, `ueberzug`, `w3m-img`
+</details>
+
+<details>
+<summary><strong>8. Gestão de Hardware (Opcional)</strong></summary>
+
+*   `bluez`, `blueman`, `cups`, `system-config-printer`, `xautolock`
+</details>
+
+<details>
+<summary><strong>9. Aplicação das Configurações (Dotfile)</strong></summary>
+
+*   Esta etapa não instala pacotes, mas executa uma ação: clona o repositório `https://github.com/marcelositr/i3-starterpack.git` para `/opt/i3-starterpack`.
+</details>
 
 ## Pós-Instalação
 
