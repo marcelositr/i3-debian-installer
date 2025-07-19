@@ -5,7 +5,7 @@
 # ==============================================================================
 #
 # Autor: Seu Nome (com assistência de IA)
-# Versão: 15.0 "Final Polish"
+# Versão: 1.0.0
 #
 # Este script é o ponto de entrada principal (roteador). Ele define
 # variáveis globais, carrega as bibliotecas e inicia o fluxo de comando.
@@ -28,7 +28,7 @@ export -f log_message run_with_spinner
 # --- FUNÇÕES DE FLUXO PRINCIPAL (MAIN) ---
 
 mostrar_help() {
-    echo -e "${GREEN}Ferramenta de Gerenciamento de Ambiente Debian (v15.0)${NC}"
+    echo -e "${GREEN}Ferramenta de Gerenciamento de Ambiente Debian (v1.0.0)${NC}"
     echo -e "---------------------------------------------------------"
     echo -e "Usa os arquivos de configuração em '${YELLOW}${CONFIG_FILE}${NC}' e as bibliotecas em '${YELLOW}${LIB_DIR}/${NC}'."
     echo; echo -e "Um log detalhado de cada execução é salvo em '${YELLOW}${LOG_FILE}${NC}'."
@@ -170,7 +170,7 @@ main_drivers() {
 
 if [ "$1" == "" ]; then mostrar_help; exit 1; fi
 rm -f "$LOG_FILE" &> /dev/null
-log_message "INFO" "--- Início da execução v15.0 ---"; log_message "INFO" "Argumentos recebidos: $*"
+log_message "INFO" "--- Início da execução v1.0.0 ---"; log_message "INFO" "Argumentos recebidos: $*"
 case "$1" in
     install|remove|drivers|help|-h|--help) log_message "INFO" "Comando '$1' reconhecido." ;;
     *) log_message "ERROR" "Comando inválido '$1'."; echo -e "${RED}Erro: '$1' inválido.${NC}\n"; mostrar_help; exit 1 ;;
