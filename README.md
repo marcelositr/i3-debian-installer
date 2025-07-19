@@ -1,4 +1,4 @@
-# Ferramenta de Gerenciamento de Ambiente Debian (v15.0 "Final Polish")
+# Ferramenta de Gerenciamento de Ambiente Debian (v1.0.0)
 
 ![Licença](https://img.shields.io/badge/license-MIT-blue.svg) ![Versão](https://img.shields.io/badge/version-1.0.0-brightgreen.svg) ![Shell](https://img.shields.io/badge/shell-bash-green.svg)
 
