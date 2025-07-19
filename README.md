@@ -1,6 +1,6 @@
 # Ferramenta de Gerenciamento de Ambiente Debian (v15.0 "Final Polish")
 
-![Licença](https://img.shields.io/badge/license-MIT-blue.svg) ![Versão](https://img.shields.io/badge/version-15.0-brightgreen.svg) ![Shell](https://img.shields.io/badge/shell-bash-green.svg)
+![Licença](https://img.shields.io/badge/license-MIT-blue.svg) ![Versão](https://img.shields.io/badge/version-1.0.0-brightgreen.svg) ![Shell](https://img.shields.io/badge/shell-bash-green.svg)
 
 Este projeto é uma ferramenta de linha de comando robusta para automatizar a instalação, remoção e configuração de um ambiente de desenvolvimento completo em sistemas Debian, com foco em i3wm e ferramentas de terminal.
 
